@@ -7,12 +7,11 @@ A self-hosted CocoaPods wrapper around prebuilt FFmpegKit full XCFramework binar
 intended for internal use after official FFmpegKit binary distribution was discontinued.
   DESC
 
-  s.homepage         = 'https://example.com/ffmpeg-kit-full-binary'
+  s.homepage         = 'https://github.com/xiaoniuniuaihenai/FFmpeg'
   s.license          = { :type => 'LGPL-3.0-or-later' }
-  s.author           = { 'Your Team' => 'dev@example.com' }
+  s.author           = { 'xiaoniuniuaihenai' => 'xiaoniuniuaihenai@users.noreply.github.com' }
 
-  # Replace with your own private git repo before sharing across projects.
-  s.source           = { :git => 'https://example.com/your-org/FFmpegKitFullBinary.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/xiaoniuniuaihenai/FFmpeg.git', :tag => s.version.to_s }
 
   s.platform         = :ios, '12.1'
   s.swift_version    = '5.0'
