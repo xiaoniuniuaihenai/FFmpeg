@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FFmpegKitFullBinary'
-  s.version          = '6.0.0.1'
+  s.version          = '6.0.0.2'
   s.summary          = 'Self-hosted FFmpegKit full binary distribution for iOS.'
   s.description      = <<-DESC
 A self-hosted CocoaPods wrapper around prebuilt FFmpegKit full XCFramework binaries,
@@ -19,14 +19,14 @@ intended for internal use after official FFmpegKit binary distribution was disco
   s.static_framework = true
 
   s.vendored_frameworks = [
-    'ffmpegkit.xcframework',
-    'libavcodec.xcframework',
-    'libavdevice.xcframework',
-    'libavfilter.xcframework',
-    'libavformat.xcframework',
-    'libavutil.xcframework',
-    'libswresample.xcframework',
-    'libswscale.xcframework'
+  'ffmpeg-kit-ios-full/ffmpegkit.xcframework',
+  'ffmpeg-kit-ios-full/libavcodec.xcframework',
+  'ffmpeg-kit-ios-full/libavdevice.xcframework',
+  'ffmpeg-kit-ios-full/libavfilter.xcframework',
+  'ffmpeg-kit-ios-full/libavformat.xcframework',
+  'ffmpeg-kit-ios-full/libavutil.xcframework',
+  'ffmpeg-kit-ios-full/libswresample.xcframework',
+  'ffmpeg-kit-ios-full/libswscale.xcframework'
   ]
 
   s.frameworks = [
